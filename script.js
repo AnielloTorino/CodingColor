@@ -8,4 +8,5 @@ function mostraColore() {
 
 	// applica colore al box
 	document.getElementById("colorBox").style.backgroundColor = colore;
+	document.getElementById("colorBox").innerText = colore;
 }
